@@ -2,7 +2,8 @@ package linkedlist;
 
 public class PalindromeList {
     public static void main(String[] args) {
-        Node start = Utility.getLinkedList();
+        Integer[] a = {1,2,3,4,5,6};
+        Node start = Utility.getLinkedList(a);
         int size = Utility.getSizeOfLinkedList(start);
         Boolean isSizeOdd = (size % 2) == 0 ? false : true;
         //reverse the link list

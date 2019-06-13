@@ -3,8 +3,8 @@ package linkedlist;
 import java.util.ArrayList;
 
 public class Utility {
-    public static Node getLinkedList() {
-        Integer[] a = {1,2,3,2,1};
+    public static Node getLinkedList(Integer[] a) {
+
         Node start = new Node(a[0]);
         Node current = start;
         for (int i = 1; i < a.length; i++) {
